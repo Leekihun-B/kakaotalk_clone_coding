@@ -1,0 +1,107 @@
+/**
+ * @filename    : top.css
+ * @description : 상단영역css
+ * @author      : 이기훈 (kihun7704@gmail.com)
+ */
+@charset "utf-8";
+
+/* 본문 상단 최소화 최대화면 닫기 */
+
+.top #option {
+    width: auto;
+    height: 30px;
+    position: relative;
+}
+
+.top #option .option1 {
+    display: block;
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/1.PNG) no-repeat;
+    background-position: -365px -7px;
+}
+
+.top #option .option2 {
+    display: block;
+    position: absolute;
+    top: 7px;
+    right: 26px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/1.PNG) no-repeat;
+    background-position: -344px -7px;
+}
+
+.top #option .option3 {
+    display: block;
+    position: absolute;
+    top: 7px;
+    right: 47px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/1.PNG) no-repeat;
+    background-position: -322px -7px;
+}
+
+/* 친구 text와 친구추가 아이콘 */
+
+.top #create {
+    width: auto;
+    height: 31px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.top #create h1 {
+    padding-top: 7px;
+    padding-left: 14px;
+    font-size: 1.2em;
+}
+
+.top #create .create_firend {
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 13px;
+    width: 28px;
+    height: 28px;
+    background: url(../img/1.PNG) no-repeat;
+    background-position: -344px -42px;
+}
+
+/* 친구검색 */
+
+.top #search {
+    width: auto;
+    height: 31px;
+    position: relative;
+    margin-top: 10px;
+
+}
+
+.top #search .search_firend {
+    display: block;
+    width: 235px;
+    height: 30px;
+    margin-left: 15px;
+    border: 0px solid #000;
+    border-radius: 18px;
+    background-color: #f0f0f0;
+    position: absolute;
+    padding-left: 35px;
+
+}
+
+.top #search i {
+    display: block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 8px;
+    left: 27px;
+    z-index: 1;
+    color: #8f8f8f;
+}

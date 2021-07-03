@@ -1,0 +1,77 @@
+/**
+ * @filename    : common.css
+ * @description : 공통css
+ * @author      : 이기훈 (kihun7704@gmail.com)
+ */
+@charset "utf-8";
+
+/* 공통
+---------------------------- */
+* {}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* 전체 content, footer 레이아웃
+---------------------------- */
+#total {
+    margin: auto;
+    width: 372px;
+    height: 595px;
+    border: 1px solid #000;
+}
+
+#content {
+    height: 500px;
+    width: auto;
+    background-color: pink;
+    overflow: hidden;
+}
+
+#content .sidebar {
+    display: block;
+    background-color: #ebebeb;
+    float: left;
+    width: 63px;
+    height: 500px;
+}
+
+#content .list {
+    display: block;
+    background-color: #fff;
+    float: left;
+    width: 309px;
+    height: 380px;
+    overflow: auto;
+}
+
+#content .top {
+    display: block;
+    width: 309px;
+    height: 120px;
+    float: left;
+    background-color: #fff;
+}
+
+#footer {
+    width: 372px;
+    height: 95px;
+    background-color: green;
+}
+
+#content,
+#footer {
+    float: none;
+    clear: both;
+    display: block;
+    content: '';
+}

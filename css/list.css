@@ -1,0 +1,346 @@
+/**
+ * @filename    : list.css
+ * @description : 목록css
+ * @author      : 이기훈 (kihun7704@gmail.com)
+ */
+@charset "utf-8";
+
+/* 내목록 + 친구목록 */
+
+.list #info_list {
+    width: auto;
+    min-height: 378px;
+    overflow: auto;
+    position: relative;
+}
+
+.list #info_list:after {
+    float: none;
+    clear: both;
+    display: block;
+    content: '';
+}
+
+/* 내 목록 */
+
+.list #info_list #my_info {
+    position: relative;
+    height: 65px;
+}
+
+.list #info_list #my_info a {
+    display: block;
+    width: 100%;
+    height: 60px;
+}
+
+.list #info_list #my_info #a {
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    background: url(../img/photo.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 19px;
+}
+
+.list #info_list #my_info #name a {
+    text-decoration: none;
+    color: #000;
+    height: 20px;
+    width: 40px;
+}
+
+/* 내 이름 위치 설정 */
+
+.list #info_list #my_info #name {
+    display: block;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 20px;
+    font: bold 13px "고딕";
+}
+
+/* 목록에 마우스 올리면 색상 변경 */
+
+.list #info_list #my_info:hover #info {
+    background-color: #ebebeb;
+}
+
+/* 친구목록 */
+
+.list #info_list #cutline {
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    border-top: 1px solid #ebebeb;
+    font: 11px "고딕";
+    color: gray;
+    text-indent: -15px;
+}
+
+/* 생일인 친구, 친구119 옆 아이콘 위치설정 */
+.list #info_list #cutline #mm1 {
+    display: block;
+    position: absolute;
+    right: 8px;
+    top: 67px;
+}
+
+.list #info_list #cutline #mm2 {
+    display: block;
+    position: absolute;
+    right: 8px;
+    top: 96px;
+}
+
+.list #info_list #cutline span {
+    display: block;
+    padding-top: 6px;
+    padding-left: 16px;
+}
+
+/* 친구1 목록 */
+
+
+.list #info_list #firend_info1 {
+    position: relative;
+    height: 55px;
+}
+
+.list #info_list #firend_info1 a {
+    display: block;
+    width: 100%;
+    height: 55px;
+}
+
+.list #info_list #firend_info1 #a1 {
+    display: block;
+    position: absolute;
+    margin-top: 6px;
+    left: 10px;
+    width: 42px;
+    height: 42px;
+    background: url(../img/basic.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 17px;
+}
+
+.list #info_list #firend_info1 #name {
+    display: block;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 17px;
+    font: bold 13px "고딕";
+}
+
+.list #info_list #firend_info1 #name a {
+    text-decoration: none;
+    color: #000;
+    height: 20px;
+    width: 40px;
+}
+
+/* 목록에 마우스 올리면 색상 변경 */
+.list #info_list #firend_info1:hover #info {
+    background-color: #ebebeb;
+}
+
+/* 친구2 목록 */
+.list #info_list #firend_info2 {
+    position: relative;
+    height: 55px;
+}
+
+.list #info_list #firend_info2 a {
+    display: block;
+    width: 100%;
+    height: 55px;
+}
+
+.list #info_list #firend_info2 #a2 {
+    display: block;
+    position: absolute;
+    margin-top: 6px;
+    left: 10px;
+    width: 42px;
+    height: 42px;
+    background: url(../img/basic.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 17px;
+}
+
+.list #info_list #firend_info2 #name {
+    display: block;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 17px;
+    font: bold 13px "고딕";
+}
+
+.list #info_list #firend_info2 #name a {
+    text-decoration: none;
+    color: #000;
+    height: 20px;
+    width: 40px;
+}
+
+/* 목록에 마우스 올리면 색상 변경 */
+.list #info_list #firend_info2:hover #info {
+    background-color: #ebebeb;
+}
+
+/* 친구3 목록 */
+
+.list #info_list #firend_info3 {
+    position: relative;
+    height: 55px;
+}
+
+.list #info_list #firend_info3 a {
+    display: block;
+    width: 100%;
+    height: 55px;
+}
+
+.list #info_list #firend_info3 #a3 {
+    display: block;
+    position: absolute;
+    margin-top: 6px;
+    left: 10px;
+    width: 42px;
+    height: 42px;
+    background: url(../img/basic.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 17px;
+}
+
+.list #info_list #firend_info3 #name {
+    display: block;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 17px;
+    font: bold 13px "고딕";
+}
+
+.list #info_list #firend_info3 #name a {
+    text-decoration: none;
+    color: #000;
+    height: 20px;
+    width: 40px;
+}
+
+/* 목록에 마우스 올리면 색상 변경 */
+.list #info_list #firend_info3:hover #info {
+    background-color: #ebebeb;
+}
+
+/* 친구4 목록 */
+
+.list #info_list #firend_info4 {
+    position: relative;
+    height: 55px;
+}
+
+.list #info_list #firend_info4 a {
+    display: block;
+    width: 100%;
+    height: 55px;
+}
+
+.list #info_list #firend_info4 #a4 {
+    display: block;
+    position: absolute;
+    margin-top: 6px;
+    left: 10px;
+    width: 42px;
+    height: 42px;
+    background: url(../img/basic.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 17px;
+}
+
+.list #info_list #firend_info4 #name {
+    display: block;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 17px;
+    font: bold 13px "고딕";
+}
+
+.list #info_list #firend_info4 #name a {
+    text-decoration: none;
+    color: #000;
+    height: 20px;
+    width: 40px;
+}
+
+/* 목록에 마우스 올리면 색상 변경 */
+.list #info_list #firend_info4:hover #info {
+    background-color: #ebebeb;
+}
+
+/* 친구5 목록 */
+
+.list #info_list #firend_info5 {
+    position: relative;
+    height: 55px;
+}
+
+.list #info_list #firend_info5 a {
+    display: block;
+    width: 100%;
+    height: 55px;
+}
+
+.list #info_list #firend_info5 #a5 {
+    display: block;
+    position: absolute;
+    margin-top: 6px;
+    left: 10px;
+    width: 42px;
+    height: 42px;
+    background: url(../img/basic.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 17px;
+}
+
+.list #info_list #firend_info5 #name {
+    display: block;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 17px;
+    font: bold 13px "고딕";
+}
+
+.list #info_list #firend_info5 #name a {
+    text-decoration: none;
+    color: #000;
+    height: 20px;
+    width: 40px;
+}
+
+/* 목록에 마우스 올리면 색상 변경 */
+.list #info_list #firend_info5:hover #info {
+    background-color: #ebebeb;
+}

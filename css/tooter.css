@@ -1,0 +1,25 @@
+/**
+ * @filename    : footer.css
+ * @description : 하단광고영역css
+ * @author      : 이기훈 (kihun7704@gmail.com)
+ */
+@charset "utf-8";
+
+
+/* footer광고 */
+
+#clock .clock_img {
+    width: 372px;
+    height: 95px;
+    background-image: url(../img/1.PNG);
+    background-size: cover;
+    background-position: 0px -514px;
+}
+
+.clock_img:hover {
+    -ms-filter: grayscale(0.4);
+    -webkit-filter: grayscale(0.4);
+    -moz-filter: grayscale(0.4);
+    -o-filter: grayscale(0.4);
+    filter: grayscale(0.4);
+}

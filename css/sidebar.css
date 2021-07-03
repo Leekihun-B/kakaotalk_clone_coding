@@ -1,0 +1,72 @@
+/**
+ * @filename    : sidebar.css
+ * @description : sidebar영역css
+ * @author      : 이기훈 (kihun7704@gmail.com)
+ */
+@charset "utf-8";
+
+/* sidebar 레이아웃 */
+
+
+/* sidebar 이미지 구현 */
+.sidebar #icon1 {
+    margin-top: 10px;
+}
+
+.sidebar #icon1 {
+    width: 63px;
+    height: 63px;
+    background-image: url(../img/1.PNG);
+    background-position: 0px -15px;
+}
+
+.sidebar #icon2 {
+    width: 63px;
+    height: 63px;
+    background-image: url(../img/1.PNG);
+    background-position: 0px -80px;
+}
+
+.sidebar #icon3 {
+    width: 63px;
+    height: 63px;
+    background-image: url(../img/1.PNG);
+    background-position: 0px -145px;
+}
+
+/* sidebar 밑쪽 3개 아이콘 링크범위 변경 */
+
+.sidebar #icon_bottom #icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.sidebar #icon_bottom {
+    margin-top: 178px;
+}
+
+.sidebar #icon4 {
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/1.PNG);
+    background-position: left top;
+    background-position: -19px -410px;
+}
+
+.sidebar #icon5 {
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/1.PNG);
+    background-position: -19px -450px;
+}
+
+.sidebar #icon6 {
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/1.PNG);
+    background-position: -19px -490px;
+}
